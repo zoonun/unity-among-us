@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.FullSerializer;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -13,10 +14,6 @@ public class MenuManager : MonoBehaviour
     {
         _doc = GetComponent<UIDocument>();
         _root = _doc.rootVisualElement;
-
-        Button btn = new Button();
-        btn.text = "Banana";
-        _root.Add(btn);
     }
 
     // Update is called once per frame

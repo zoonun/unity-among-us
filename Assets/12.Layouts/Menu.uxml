@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    <engine:Label text="Hello World! From UXML" />
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Style src="Menu.uss" />
+    <ui:VisualElement name="root_container">
+        <ui:VisualElement name="title" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_title.png?fileID=2800000&amp;guid=afb85df2bbcd30341afcf01d5ce2aa04&amp;type=3#sprite_title&apos;); width: 50%; height:20%;" />
+        <ui:VisualElement name="control_container" style="width: 55%; height: 30%; background-color: red" />
+    </ui:VisualElement>
+</ui:UXML>
