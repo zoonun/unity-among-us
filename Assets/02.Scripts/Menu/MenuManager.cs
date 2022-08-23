@@ -89,7 +89,7 @@ public class MenuManager : MonoBehaviour
         _settingContainer.style.scale = new StyleScale(new Scale(new Vector2(0, 0)));
     }
     private void OnclickMouseSetting()
-    {   
+    {
         SetControlMode(0);
     }
     private void OnClickKeyboardMouseSetting()
