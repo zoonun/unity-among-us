@@ -1,8 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.FullSerializer;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -11,6 +7,10 @@ public class MenuManager : MonoBehaviour
     private UIDocument _doc;
     private VisualElement _root;
     private VisualElement _rootContainer;
+    [SerializeField]
+    private GameObject _menuObj;
+    [SerializeField]
+    private GameObject _onlineObj;
 
     // Setting
     private VisualElement _settingContainer;
@@ -117,7 +117,11 @@ public class MenuManager : MonoBehaviour
 
     public void OnClickOnline()
     {
-        Debug.Log("Click Online");
+        if (_menuObj != null && _onlineObj != null)
+        {
+            _menuObj.SetActive(false);
+            _onlineObj.SetActive(true);
+        }
     }
     public void OnClickEnd()
     {

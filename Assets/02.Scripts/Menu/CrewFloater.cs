@@ -42,7 +42,7 @@ public class CrewFloater : MonoBehaviour
             Vector3 spawnPos = new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0f) * dist;
             Vector3 direction = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f);
             float floatSpeed = Random.Range(1f, 4f);
-            float rotateSpeed = Random.Range(-4f, 4f);
+            float rotateSpeed = Random.Range(-2f, 2f);
 
             var crew = Instantiate(prefab, spawnPos, Quaternion.identity).GetComponent<FloatingCrew>();
             crew.SetFloatingCrew(sprites[Random.Range(0, sprites.Count)], playerColor, direction, floatSpeed, rotateSpeed, Random.Range(0.5f, 1f));

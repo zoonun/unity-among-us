@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/12.Layouts/Menu/Menu.uss?fileID=7433441132597879392&amp;guid=be8c4444bab1346f085bb6b74ec2109f&amp;type=3#Menu" />
     <ui:VisualElement name="root_container">
         <ui:VisualElement name="title" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_title.png?fileID=2800000&amp;guid=afb85df2bbcd30341afcf01d5ce2aa04&amp;type=3#sprite_title&apos;);">
-            <ui:VisualElement style="position: absolute; background-image: url(&apos;project://database/Assets/13.Sprites/Menu/kakaobrain.png?fileID=2800000&amp;guid=be525bce78eb947ae9b0869b97c47ef9&amp;type=3#kakaobrain&apos;); width: 211px; top: 116px; height: 39px;" />
+            <ui:VisualElement style="position: absolute; background-image: url(&apos;project://database/Assets/13.Sprites/Menu/kakaobrain.png?fileID=2800000&amp;guid=be525bce78eb947ae9b0869b97c47ef9&amp;type=3#kakaobrain&apos;); width: 211px; top: -42px; height: 39px;" />
         </ui:VisualElement>
         <ui:VisualElement name="control_container" style="justify-content: space-around;">
             <ui:VisualElement name="square_buttons">
