@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/12.Layouts/Online/Online.uss?fileID=7433441132597879392&amp;guid=9a6e309fc4b3640389cf2a19b788ee37&amp;type=3#Online" />
+    <ui:VisualElement name="root_container">
+        <ui:VisualElement name="title" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten005Origin.png?fileID=21300000&amp;guid=40d2a5276376f45419b95d098d1f45b4&amp;type=3#Patten005Origin&apos;);" />
+        <ui:VisualElement name="option_container">
+            <ui:VisualElement name="option">
+                <ui:VisualElement class="img__option" style="background-image: url(&apos;project://database/Assets/13.Sprites/Online%20UI/Sprites/sprite_img_host.png?fileID=2800000&amp;guid=c0edb1325a8e08745bd51eb2be87d585&amp;type=3#sprite_img_host&apos;);" />
+                <ui:VisualElement>
+                    <ui:Label text="HOST" display-tooltip-when-elided="true" />
+                    <ui:VisualElement class="hr" />
+                    <ui:Button text="Make Room" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); background-color: rgba(188, 188, 188, 0); color: rgb(255, 255, 255); -unity-font-style: normal; font-size: 16px; height: 36px; width: 110px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="option">
+                <ui:VisualElement class="img__option" style="background-image: url(&apos;project://database/Assets/13.Sprites/Online%20UI/Sprites/sprite_img_private.png?fileID=2800000&amp;guid=c381490f2f60f144d8e4c39f68c7840d&amp;type=3#sprite_img_private&apos;);" />
+                <ui:VisualElement class="option_content">
+                    <ui:Label text="PRIVATE" display-tooltip-when-elided="true" />
+                    <ui:VisualElement class="hr" />
+                    <ui:Button text="Enter Room" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); background-color: rgba(188, 188, 188, 0); color: rgb(255, 255, 255); -unity-font-style: normal; font-size: 16px; height: 36px; width: 110px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button name="btn__back" text="Back" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); -unity-font-style: bold; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -18,12 +18,11 @@ public class MenuManager : MonoBehaviour
     private Button _settingCloseBtn;
     private Button _settingMouseBtn;
     private Button _settingKeyboardMouseBtn;
-    
+
     // Game Control
     private Button _onlineBtn;
     private Button _endBtn;
-    
-    
+
     // Start is called before the first frame update
     private void OnEnable()
     {
@@ -83,6 +82,7 @@ public class MenuManager : MonoBehaviour
     {
         _settingContainer.style.opacity = 1;
         _settingContainer.style.scale = new StyleScale(new Scale(new Vector2(1, 1)));
+        
     }
     private void OnClickSettingClose()
     {

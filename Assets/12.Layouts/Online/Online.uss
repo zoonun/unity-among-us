@@ -1,0 +1,58 @@
+#root_container {
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    align-items: center;
+}
+
+#title {
+    width: 280px; 
+    height: 50px;
+}
+
+.hr {
+    width: 250px;
+    height: 4px;
+    background-color: white;
+}
+
+#option_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#option {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img__option {
+    width: 163px;
+    height: 164px;
+}
+
+#option Label {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+#option Button {
+    margin-top: 16px; 
+}
+
+#btn__back {
+    position: absolute;
+    left: 2%;
+    bottom: 15%;
+    width: 16%;
+    height: 8%;
+    color: white;
+}
+
+Button:hover {
+    border-color: rgba(0, 255, 7, 255);
+    border-width: 2px;
+}
