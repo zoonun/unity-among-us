@@ -7,7 +7,7 @@
         <ui:VisualElement name="control_container" style="justify-content: space-around;">
             <ui:VisualElement name="square_buttons">
                 <ui:Button class="square_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_local_ko.png?fileID=2800000&amp;guid=6cf0cd643ac6e5c4587198e0cf67e279&amp;type=3#sprite_button_local_ko&apos;);" />
-                <ui:Button class="square_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_online_ko.png?fileID=2800000&amp;guid=cbb8c91caab5c25409d287428afbcdbf&amp;type=3#sprite_button_online_ko&apos;);" />
+                <ui:Button name="btn__online" class="square_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_online_ko.png?fileID=2800000&amp;guid=cbb8c91caab5c25409d287428afbcdbf&amp;type=3#sprite_button_online_ko&apos;);" />
             </ui:VisualElement>
             <ui:VisualElement name="square_buttons">
                 <ui:Button class="square_small" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_howtoplay_ko.png?fileID=2800000&amp;guid=08ffc9ea068f923479c6c13ce2d8c294&amp;type=3#sprite_button_howtoplay_ko&apos;);" />
@@ -21,7 +21,7 @@
                 <ui:Button class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_shop.png?fileID=2800000&amp;guid=ff6d27caa8d1b0e489bf801f5e6876f6&amp;type=3#sprite_button_shop&apos;);" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:Button name="endgame" text="End Game" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); -unity-font-style: bold; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;);" />
+        <ui:Button name="btn__end" text="End Game" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); -unity-font-style: bold; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;);" />
         <ui:VisualElement name="setting_container" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten005Origin.png?fileID=21300000&amp;guid=40d2a5276376f45419b95d098d1f45b4&amp;type=3#Patten005Origin&apos;);">
             <ui:Label text="Control Type" display-tooltip-when-elided="true" style="top: 20px; left: 20px; font-size: 20px; color: rgb(255, 255, 255); height: 32px; width: 125px; position: absolute;" />
             <ui:Button text="Mouse" name="btn__setting__mouse" class="square_small" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); position: absolute; left: 30px; top: 80px; height: 38px; width: 150px; color: rgb(255, 255, 255);" />

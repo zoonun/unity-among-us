@@ -52,7 +52,7 @@
     height: 65px;
 }
 
-#endgame {
+#btn__end {
     position: absolute;
     left: 2%;
     bottom: 15%;
@@ -72,6 +72,7 @@ Button:hover {
     left: 313px;
     width: 398px;
     height: 526px;
+    opacity: 0;
     transition-property: scale;
     transition-duration: 0.5s;
     transition-timing-function: ease-out-back;
