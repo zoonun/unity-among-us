@@ -1,7 +1,27 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Style src="Menu.uss" />
+    <Style src="project://database/Assets/12.Layouts/Menu/Menu.uss?fileID=7433441132597879392&amp;guid=be8c4444bab1346f085bb6b74ec2109f&amp;type=3#Menu" />
     <ui:VisualElement name="root_container">
-        <ui:VisualElement name="title" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_title.png?fileID=2800000&amp;guid=afb85df2bbcd30341afcf01d5ce2aa04&amp;type=3#sprite_title&apos;); width: 50%; height:20%;" />
-        <ui:VisualElement name="control_container" style="width: 55%; height: 30%; background-color: red" />
+        <ui:VisualElement name="title" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_title.png?fileID=2800000&amp;guid=afb85df2bbcd30341afcf01d5ce2aa04&amp;type=3#sprite_title&apos;);">
+            <ui:VisualElement style="position: absolute; background-image: url(&apos;project://database/Assets/13.Sprites/Menu/kakaobrain.png?fileID=2800000&amp;guid=be525bce78eb947ae9b0869b97c47ef9&amp;type=3#kakaobrain&apos;); width: 211px; top: 116px; height: 39px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="control_container" style="justify-content: space-around;">
+            <ui:VisualElement name="square_buttons">
+                <ui:Button class="square_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_local_ko.png?fileID=2800000&amp;guid=6cf0cd643ac6e5c4587198e0cf67e279&amp;type=3#sprite_button_local_ko&apos;);" />
+                <ui:Button class="square_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_online_ko.png?fileID=2800000&amp;guid=cbb8c91caab5c25409d287428afbcdbf&amp;type=3#sprite_button_online_ko&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="square_buttons">
+                <ui:Button class="square_small" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_howtoplay_ko.png?fileID=2800000&amp;guid=08ffc9ea068f923479c6c13ce2d8c294&amp;type=3#sprite_button_howtoplay_ko&apos;);" />
+                <ui:Button class="square_small" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_freeplay_ko.png?fileID=2800000&amp;guid=6f4745982452359449b79716eb40443d&amp;type=3#sprite_button_freeplay_ko&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="circle_buttons">
+                <ui:Button display-tooltip-when-elided="true" class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_announcement.png?fileID=2800000&amp;guid=261f7c58ef28c5e42af9cee81008241b&amp;type=3#sprite_button_announcement&apos;);" />
+                <ui:Button name="btn__setting" display-tooltip-when-elided="true" class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_settings.png?fileID=2800000&amp;guid=c805a397c1cf0f742bc8907dc2702cc7&amp;type=3#sprite_button_settings&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_credits.png?fileID=2800000&amp;guid=e5970303de89ecc4c9d8a05f85e6edc3&amp;type=3#sprite_button_credits&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_stats.png?fileID=2800000&amp;guid=c24c6f56623e13343855db5e4f423aea&amp;type=3#sprite_button_stats&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" class="circle_big" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/sprite_button_shop.png?fileID=2800000&amp;guid=ff6d27caa8d1b0e489bf801f5e6876f6&amp;type=3#sprite_button_shop&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button name="endgame" text="End Game" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten001Origin.png?fileID=21300000&amp;guid=decb66d2ef8f30f40b7b6e30482c5dd5&amp;type=3#Patten001Origin&apos;); -unity-font-style: bold; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;);" />
+        <ui:VisualElement name="setting_container" style="background-image: url(&apos;project://database/Assets/13.Sprites/Menu/Patten005Origin.png?fileID=21300000&amp;guid=40d2a5276376f45419b95d098d1f45b4&amp;type=3#Patten005Origin&apos;);" />
     </ui:VisualElement>
 </ui:UXML>
