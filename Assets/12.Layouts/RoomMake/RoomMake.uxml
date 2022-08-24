@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/12.Layouts/RoomMake/RoomMake.uss?fileID=7433441132597879392&amp;guid=2b6e51ee2d5c44c2f9e0674ab4767095&amp;type=3#RoomMake" />
+    <ui:VisualElement name="root_container">
+        <ui:VisualElement name="option_container">
+            <ui:VisualElement name="option">
+                <ui:Label text="Imposter : " display-tooltip-when-elided="true" />
+                <ui:Button text="1" display-tooltip-when-elided="true" />
+                <ui:Button text="2" display-tooltip-when-elided="true" />
+                <ui:Button text="3" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement name="option">
+                <ui:Label text="Max Crew : " display-tooltip-when-elided="true" />
+                <ui:Button text="6" display-tooltip-when-elided="true" />
+                <ui:Button text="7" display-tooltip-when-elided="true" />
+                <ui:Button text="8" display-tooltip-when-elided="true" />
+                <ui:Button text="9" display-tooltip-when-elided="true" />
+                <ui:Button text="10" display-tooltip-when-elided="true" />
+                <ui:Button text="11" display-tooltip-when-elided="true" />
+                <ui:Button text="12" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

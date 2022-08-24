@@ -5,12 +5,6 @@
     align-items: center;
 }
 
-#title {
-    margin-top: 10%;
-    width: 280px; 
-    height: 50px;
-}
-
 .hr {
     width: 250px;
     height: 4px;
@@ -18,7 +12,7 @@
 }
 
 #option_container {
-    margin-top: 100px;
+    margin-top: 220px;
     display: flex;
     flex-direction: column;
 }

@@ -69,7 +69,7 @@ Button:hover {
 #setting_container {
     position: absolute; 
     top: 95px;
-    left: 313px;
+    left: 480px;
     width: 398px;
     height: 526px;
     opacity: 0;

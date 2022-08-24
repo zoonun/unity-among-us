@@ -1,9 +1,15 @@
 using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
+using Button = UnityEngine.UIElements.Button;
 
 public class OnlineManager : MonoBehaviour
 {
+    [SerializeField] private TMP_InputField nickNameInputField;
+    [SerializeField] private GameObject roomMakeUI;
+    
     private UIDocument _doc;
     private VisualElement _root;
 
@@ -36,6 +42,20 @@ public class OnlineManager : MonoBehaviour
         {
             _menuObj.SetActive(true);
             _onlineObj.SetActive(false);
+        }
+    }
+
+    public void OnClickCreateRoomButton()
+    {
+        if (nickNameInputField.text != "")
+        {
+            nickNameInputField.text = PlayerSetting.nickname;
+            roomMakeUI.SetActive(true);
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            nickNameInputField.GetComponent<Animator>().SetTrigger("on");
         }
     }
 }
